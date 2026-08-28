@@ -1,0 +1,24 @@
+# Session/journal docs (per DevApps convention)
+COMMANDS.md
+MEMORY.md
+CHANGES.md
+TODOS.md
+PLAN.md
+
+# Xcode / build
+*.xcodeproj
+build/
+DerivedData/
+*.xcresult
+
+# Release artifacts
+release/
+*.dmg
+*.zip
+
+# macOS
+.DS_Store
+
+# SPM
+.build/
+.swiftpm/
