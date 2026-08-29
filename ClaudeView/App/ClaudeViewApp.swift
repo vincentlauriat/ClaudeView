@@ -3,6 +3,7 @@ import SwiftUI
 @main
 struct ClaudeViewApp: App {
     @StateObject private var appState = AppState()
+    @StateObject private var updater = UpdaterModel()
 
     var body: some Scene {
         WindowGroup {
@@ -12,6 +13,11 @@ struct ClaudeViewApp: App {
                 .preferredColorScheme(appState.theme.colorScheme)
         }
         .windowStyle(.automatic)
+        .commands {
+            CommandGroup(after: .appInfo) {
+                CheckForUpdatesCommand(updater: updater)
+            }
+        }
 
         Settings {
             SettingsView()

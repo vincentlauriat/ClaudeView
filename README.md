@@ -1,5 +1,7 @@
 # ClaudeView
 
+![Release](https://img.shields.io/github/v/release/vincentlauriat/ClaudeView)
+
 A native macOS app to browse, search, and analyze your **Claude Code** sessions —
 100% local, no account, no server. A macOS-only, customizable reinterpretation
 of [agentsview](https://github.com/kenn-io/agentsview), focused on Claude Code.
@@ -30,6 +32,13 @@ Data stays on your Mac: `~/Library/Application Support/ClaudeView/`.
 - macOS 15+
 - Claude Code sessions in `~/.claude/projects/`
 
+## Install
+
+Download the latest DMG from the
+[Releases page](https://github.com/vincentlauriat/ClaudeView/releases/latest),
+open it and drag **ClaudeView** to Applications. The app is signed, notarized,
+and updates itself via Sparkle (ClaudeView → Rechercher les mises à jour…).
+
 ## Build
 
 ```bash
@@ -48,6 +57,8 @@ project.yml          xcodegen project definition
 
 ## Roadmap
 
-- [ ] v1 — sessions, search, costs, stats, live view, customizable dashboard
-- [ ] Saved views & named filters
-- [ ] Signed & notarized DMG release
+- [x] v1 — sessions, search, costs, stats, live view, customizable dashboard
+- [x] Saved views & named filters
+- [x] Signed & notarized DMG release with Sparkle auto-update
+- [ ] Export (CSV/JSON) of sessions and costs
+- [ ] Menu bar companion

@@ -10,6 +10,8 @@ PLAN.md
 build/
 DerivedData/
 *.xcresult
+.sparkle-tools/
+ClaudeView/Info.plist
 
 # Release artifacts
 release/
