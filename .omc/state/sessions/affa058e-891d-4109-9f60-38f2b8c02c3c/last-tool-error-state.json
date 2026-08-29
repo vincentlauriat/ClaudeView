@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"S=/private/tmp/claude-501/-Users-vincentlauriat-DevApps-ClaudeTools-ClaudeView/affa058e-891d-4109-9f60-38f2b8c02c3c/scratchpad; comm -13 $S/done.txt $S/all.txt | grep -cv \\\"/subagents/\\\"; ...",
-  "error": "Exit code 1\n0\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import json,sys; o=json.loads(sys.stdin.readline()); print(sorted(o.keys())); print(o.get('type'), o.get('isSidechain'), o.get('sessionId'))\n                       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py\", line 352, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~...",
-  "timestamp": "2026-08-29T07:44:21.676Z",
-  "retry_count": 1
-}
