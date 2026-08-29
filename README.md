@@ -8,13 +8,13 @@ of [agentsview](https://github.com/kenn-io/agentsview), focused on Claude Code.
 
 | Feature | Status |
 |---|---|
-| Session browsing with rich transcripts (markdown, tool calls, thinking) | 🚧 |
-| Full-text search (SQLite FTS5) with filters | 🚧 |
-| Cost tracking (cache-aware, editable model prices, budgets) | 🚧 |
-| Stats: activity heatmap, daily/monthly trends, model/project breakdowns | 🚧 |
-| **Live view** — real-time "sniffer" stream of session events | 🚧 |
-| **Customizable dashboard** — modular widgets, drag to reorder | 🚧 |
-| Configurable columns, saved views, themes (accent, density, fonts) | 🚧 |
+| Session browsing with rich transcripts (markdown, tool calls, thinking) | ✅ |
+| Full-text search (SQLite FTS5) with filters | ✅ |
+| Cost tracking (cache-aware, editable model prices, budgets) | ✅ |
+| Stats: activity heatmap, daily/monthly trends, model/project breakdowns | ✅ |
+| **Live view** — real-time "sniffer" stream of session events | ✅ |
+| **Customizable dashboard** — modular widgets, drag to reorder | ✅ |
+| Configurable columns, saved views, themes (accent, density, fonts) | ✅ |
 
 ## How it works
 
